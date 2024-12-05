@@ -62,7 +62,7 @@ const Sidebar = () => {
                   <Link to="/products">Lista de Produtos</Link>
                 </li>
                 <li>
-                  <Link to="/products/details">Visualizar Produto</Link>
+                  <Link to="product/details">Visualizar Produto</Link>
                 </li>
                 <li>
                   <Link to="#">Cadastrar Produtos</Link>
@@ -76,7 +76,7 @@ const Sidebar = () => {
               onClick={() => isOpenSubmenu(3)}
             >
               <span className="icon">
-                <FaProductHunt />
+                <BiSolidCategory />
               </span>
               Categorias
               <span className="arrow">
@@ -90,10 +90,10 @@ const Sidebar = () => {
             >
               <ul className="submenu">
                 <li>
-                  <Link to="/products">Lista de Categorias</Link>
+                  <Link to="#">Lista de Categorias</Link>
                 </li>
                 <li>
-                  <Link to="/products/details">Visualizar Categoria</Link>
+                  <Link to="#">Visualizar Categoria</Link>
                 </li>
                 <li>
                   <Link to="#">Cadastrar Categoria</Link>
@@ -107,7 +107,7 @@ const Sidebar = () => {
               onClick={() => isOpenSubmenu(4)}
             >
               <span className="icon">
-                <FaProductHunt />
+                <SiBrandfolder />
               </span>
               Marcas
               <span className="arrow">
@@ -121,10 +121,10 @@ const Sidebar = () => {
             >
               <ul className="submenu">
                 <li>
-                  <Link to="/products">Lista de Marcas</Link>
+                  <Link to="#">Lista de Marcas</Link>
                 </li>
                 <li>
-                  <Link to="/products/details">Visualizar Marca</Link>
+                  <Link to="#">Visualizar Marca</Link>
                 </li>
                 <li>
                   <Link to="#">Cadastrar Marca</Link>
@@ -205,7 +205,7 @@ const Sidebar = () => {
                 <span className="icon">
                   <IoMdSettings />
                 </span>
-                Setting
+                Configurações
                 <span className="arrow">
                   <IoIosArrowForward />
                 </span>
